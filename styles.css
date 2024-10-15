@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font: bold;
+    color: rgb(0, 13, 128);
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    color: rgb(0, 13, 128);
+    font: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formname {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#name,#email,#number  {
+    padding: 8px;
+    border: 1px solid blue;
+    margin: 4px;
+    width: 500px;
+}
+
+.pets {
+    display: flex;
+    flex-direction: column;
+    padding: 4px; 
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 6px;
+}
+
+.multiple {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(95, 96, 160);
+    border-radius: 6px;
+    margin: 6px;
+}
+
+#submit:hover {
+    background-color: rgb(118, 95, 160);
+}

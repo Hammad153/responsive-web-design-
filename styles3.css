@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar li {
+    color: #4d4e53;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.main-section {
+    margin: 24px;
+    font-size: 36px;
+}
+
+.main-section header {
+    font-size: 32px;
+    color: blue;
+}
+#navbar li a {
+    width: 100%;
+    text-align: left;
+}
+
+
+@media (min-width: 680px) and (max-width:1024px) {
+    .main-section {
+        margin: 12px;
+        font-size: 40px;
+    }
+}

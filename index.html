@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">Get to know you survey</h1>
+        <p id="description">We wish to know and understand more about you by filing this survey form, Thanks for your time</p>
+    </div>
+    <form action="" id="survey-form">
+        <div id="formname">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Enter your name here" required>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Enter your valid email address" required>
+            <label for="number"></label>
+            <input type="number" name="number" id="number" placeholder="Enter a valid mobile number" min="11" max="13">
+        </div>
+       
+        <div class="pets">
+            <p>Select your favourite pet</p>
+            <select name="Pets" id="dropdown">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Rabbit">Rabbit</option>
+                <option value="Hen">Hen</option>
+                <option value="Goat">Goat</option>
+                <option value="Sheep">Sheep</option>
+            </select> 
+        </div>
+       
+        <div class="hobby">
+            <p>Select your Hobby</p>
+            <p>
+            <input type="radio" name="Hobby" value="football" > Football
+            </p>
+            <p>
+             <input type="radio" name="Hobby" value="volleyball"> Volleyball
+            </p>
+            <p>
+                <input type="radio" name="Hobby" value="Reading"> Reading
+            </p>
+            <p>
+                <input type="radio" name="Hobby" value="Dancing"> Dancing
+            </p>
+        </div>
+       
+        <div class="mulitiple">
+            <p> What`s your favourite programming language, here, you can select multiple options</p>
+            <input type="checkbox" value="Javascript">Javascript
+            <input type="checkbox" value="Python">Python
+            <input type="checkbox" value="Java">Java
+            <input type="checkbox" value="c++">c++
+            <input type="checkbox" value="PHP">PHP
+            <input type="checkbox" value="c#">c#
+            <input type="checkbox" value="RUBY">RUBY
+            <input type="checkbox" value="R-Language">R-Language
+            <input type="checkbox" value="RUST">RUST
+            <input type="checkbox" value="Flutter">Flutter
+        </div>
+
+        <div>
+            <textarea name="message" cols="30" rows="10">Send me a message</textarea>
+        </div>
+
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

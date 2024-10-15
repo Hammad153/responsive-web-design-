@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+#welcome-section h1{
+    height: 50vh;
+    padding-top: 10rem;
+    font-size: 32px;
+    color: darkblue;
+}
+#port-heading h1 {
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#navbar{
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     height: 100px;
+}
+
+#navbar ul {
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 24px;
+}
+#navbar ul li a {
+    color: blue;
+    padding: 16px;
+    text-decoration: none;
+}
+#projects {
+    display: flex;
+    justify-content: center
+}
+.projects-demo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.project-heading p {
+    font-size: 24px;
+    color: blue;
+}
+button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.first-row-project {
+    display: flex;
+}
+
+.second-row-project {
+    display: flex;
+}
+.third-row-project {
+     display: flex;
+
+}
+
+input, #send {
+    padding: 6px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#profile{
+    height: 100vh;
+    background-color: lightgreen;
+    padding-top: 7rem;
+}
+
+#profile h2 {
+    color: green;
+    font-size: 32px;
+    text-align: center;
+    padding: 12px
+}
+#profile p {
+    color: blue;
+    font-size: 32px;
+}
+#profile a {
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+  color: red; 
+}
+.links {
+    background-color: gray;
+    width: 60%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#about{
+    padding-top: 5rem;
+    height: 100vh;
+    background-color: lightblue;
+}
+#about h2{
+    text-align: center;
+    color:blue;
+    padding-bottom: 12px;
+}
+#about p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form {
+    height: 100vh;
+    padding-top: 6rem;
+    background-color: lightcoral;
+}
+#contact {
+    color: red;
+    text-align: center;
+    padding-bottom: 12px;
+}
+textarea {
+    display: flex;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+@media (min-width: 680px) and (max-width:1024px) {
+    body{
+        background-color: blueviolet;
+    }
+}
